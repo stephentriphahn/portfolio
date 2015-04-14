@@ -1,0 +1,25 @@
+{
+  "name": "portfolio",
+  "main": "index.js",
+  "version": "0.0.0",
+  "authors": [
+    "steve <stephentriphahn@yahoo.com>"
+  ],
+  "description": "portfolio for Stephen Triphahn (me)",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "node",
+    "express",
+    "heroku"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

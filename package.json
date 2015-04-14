@@ -1,0 +1,16 @@
+{
+  "name": "portfolio",
+  "version": "0.0.0",
+  "description": "A web portfolio for Stephen Triphan (me)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Express",
+    "node",
+    "heroku"
+  ],
+  "author": "Stephen Triphahn",
+  "license": "BSD-2-Clause"
+}
