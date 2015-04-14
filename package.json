@@ -12,5 +12,8 @@
     "heroku"
   ],
   "author": "Stephen Triphahn",
-  "license": "BSD-2-Clause"
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "express": "~4.12.3"
+  }
 }
