@@ -3,6 +3,11 @@
   src: url(../fonts/SofadiOne-Regular.ttf);
 }
 
+@font-face {
+  font-family: yard-sale;
+  src: url(../fonts/YARDSALE.TTF);
+}
+
 body {
   background: url(../images/main6.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -14,12 +19,12 @@ body {
 div.top-nav {
   width:auto;
   height:50px;
-  background-color:black;
-  opacity: .5;
+  background-color: #4CAF50;
+
 }
 
 p.main-logo {
-  font-family: main-font;
+  font-family: yard-sale;
   color:white;
   display: inline;
   font-size: 40px;
@@ -32,6 +37,9 @@ div.main-button-row {
 
 div.main-buttons {
   padding-left: 20px;
+  text-align:top;
+  line-height: 100px;
+  text-align: center;
 }
 
 div.main-buttons a.main-button {
@@ -39,11 +47,23 @@ div.main-buttons a.main-button {
   height:225px;
   width:225px;
   border-radius: 50%;
-  background-color: #607D8B;
+  background-color: #FF3D00
+;
   margin:12px;
-  opacity:.95;
 }
-
+a.main-buttom img{
+  position:relative;
+  left: 7px;
+}
+a.main-button span{
+  font-size: 25px;
+  color: white;
+  text-decoration:none;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  font-family: main-font;
+}
 a.social-media-icon img{
   height: 50px;
   width: 50px;
