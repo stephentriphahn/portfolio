@@ -1,5 +1,10 @@
+@font-face {
+  font-family: main-font;
+  src: url(../fonts/SofadiOne-Regular.ttf);
+}
+
 body {
-  background: url(../images/main.jpg) no-repeat center center fixed;
+  background: url(../images/main6.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -8,7 +13,38 @@ body {
 
 div.top-nav {
   width:auto;
-  height:100px;
-  background-color:#ffffff;
-  opacity: .1;
+  height:50px;
+  background-color:black;
+  opacity: .5;
+}
+
+p.main-logo {
+  font-family: main-font;
+  color:white;
+  display: inline;
+  font-size: 40px;
+  opacity: 1;
+}
+
+div.main-button-row {
+  margin-top: 70px;
+}
+
+div.main-buttons {
+  padding-left: 20px;
+}
+
+div.main-buttons a.main-button {
+  display:inline-block;
+  height:225px;
+  width:225px;
+  border-radius: 50%;
+  background-color: #607D8B;
+  margin:12px;
+  opacity:.95;
+}
+
+a.social-media-icon img{
+  height: 50px;
+  width: 50px;
 }
